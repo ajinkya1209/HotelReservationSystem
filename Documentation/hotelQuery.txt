@@ -1,0 +1,12 @@
+INSERT INTO hotel (hotel_id, hotel_desc, city, state, street_address, zip_code, hotel_contact, hotel_amenities, hotel_name, hotel_type, room_capacity)
+VALUES
+    (1, 'Luxurious waterfront resort', 'Miami', 'Florida', '123 Ocean Drive', 33101, 1234567890, 'Pool, Spa, Restaurant', 'Sunset Beach Resort', 'FIVESTAR', 200),
+    (2, 'Cozy boutique hotel in the heart of the city', 'New York', 'New York', '456 Broadway', 10001, 2345678901, 'Free Wi-Fi, Breakfast', 'Metropolitan Suites', 'FOURSTAR', 80),
+    (3, 'Historic hotel with modern amenities', 'Boston', 'Massachusetts', '789 History Lane', 02108, 3456789012, 'Gym, Conference Facilities', 'Colonial Inn', 'THREESTAR', 120),
+    (4, 'Affordable and comfortable lodging', 'Austin', 'Texas', '1012 Oak Street', 78701, 4567890123, 'Parking, Pet-Friendly', 'Greenwood Motel', 'TWOSTAR', 50),
+    (5, 'Elegant beachfront resort', 'Honolulu', 'Hawaii', '543 Palm Beach Road', 96801, 5678901234, 'Spa, Water Sports', 'Paradise Cove Resort', 'FIVESTAR', 300),
+    (6, 'Charming historic inn', 'Charleston', 'South Carolina', '678 Historic Avenue', 29401, 6789012345, 'Breakfast, Courtyard', 'Southern Charm Inn', 'FOURSTAR', 75),
+    (7, 'Modern downtown hotel with city views', 'Chicago', 'Illinois', '910 Skyline Boulevard', 60601, 7890123456, 'Rooftop Bar, Fitness Center', 'Urban Sky Hotel', 'THREESTAR', 150),
+    (8, 'Budget-friendly accommodation', 'Phoenix', 'Arizona', '111 Desert Road', 85001, 8901234567, 'Swimming Pool, Free Parking', 'Desert Oasis Inn', 'TWOSTAR', 100),
+    (9, 'Luxury resort with oceanfront villas', 'San Diego', 'California', '222 Seaside Lane', 92101, 9012345678, 'Private Beach, Fine Dining', 'Pacific Shores Resort', 'FIVESTAR', 250),
+    (10, 'Quaint family-owned inn', 'Portland', 'Oregon', '333 Forest Avenue', 97201, 1234567890, 'Homecooked Meals, Garden', 'Forest Haven Inn', 'FOURSTAR', 40);
