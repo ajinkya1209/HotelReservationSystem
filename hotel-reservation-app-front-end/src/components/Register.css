@@ -1,0 +1,125 @@
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(215, 211, 211, 0.1);
+    background-image: url(https://thumbs.dreamstime.com/b/abstract-blur-luxury-hospital-corridor-clinic-interior-background-defocused-effect-healthcare-medical-concept-blurred-132746887.jpg);
+    
+  }
+  
+  .register-image {
+    width: 650px ;
+    height: 680px;
+    margin-right: 5px;
+  }
+  
+  .register-form {
+    background-color: #fbf9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(223, 218, 218, 0.1);
+    width: 550px;
+    
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    color: #999;
+  }
+  
+  input {
+    border: 1px ;
+    flex: 1;
+    padding: 8px;
+  }
+  .input-label {
+    margin-right: 10px; /* Adjust the margin to your preference */
+  }
+  
+  .input-field {
+    padding: 5px; /* Adjust the padding to your preference */
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+
+  
+/* Styles for the gender radio button container */
+.gender-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.gender-container label.input-label {
+  margin-right: 10px;
+  
+}
+
+/* Align radio button options in a line */
+.radio-options {
+  display: flex;
+  align-items: center;
+}
+
+.radio-options label {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+
+.radio-options i {
+  font-size: 1.2rem;
+  color: #999; /* Default color for the icons */
+  margin-right: 5px;
+}
+
+.radio-options input[type="radio"]:checked + i {
+  color: #007bff; /* Change icon color when selected */
+}
+
+/* Style for the circle that indicates selection */
+.radio-options input[type="radio"] + i:before {
+  content: '\25cf';
+  margin-right: 5px;
+  font-size: 0.7rem;
+  color: #999; /* Default color for the circle */
+}
+
+.radio-options input[type="radio"]:checked + i:before {
+  color: #007bff; /* Change circle color when selected */
+}

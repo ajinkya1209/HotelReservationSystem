@@ -1,0 +1,35 @@
+.card-my {
+    width: 30%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;
+    background-color: #fff;
+}
+
+.card h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.address {
+    font-style: italic;
+}
+
+.contact {
+    margin-top: 10px;
+}
+
+.amenities {
+    margin-top: 10px;
+}
+
+.room-capacity {
+    margin-top: 10px;
+}

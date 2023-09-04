@@ -1,0 +1,75 @@
+/* HotelAmenities.css */
+
+.hotel-amenities-container {
+    background-color: rgb(235, 239, 241);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right:10px;
+  }
+  
+  .main-heading {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .hotel-amenities-heading {
+    font-size: 24px;
+    font-family: cursive;
+    color: rgb(24, 135, 240);
+    margin-bottom: 10px;
+  }
+  
+  .logos-container {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    gap: 20px;
+    
+  }
+  
+  .amenities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .amenity-item {
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+    background-color:rgb(254, 254, 254);
+  }
+  
+  .amenity-item img {
+    width: 15%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .amenity-name {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .amenity-item:hover {
+    transform: scale(1.1);
+    background-color:cornsilk;
+  }
+  
+  .selected {
+    border: 1px solid #007bff; /* Add the desired selected border style */
+  }
+  
+  .amenity-details img {
+    width: 700px;
+    height: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  

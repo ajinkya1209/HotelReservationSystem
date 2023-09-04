@@ -1,0 +1,36 @@
+/* styles.css */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 100px;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px); /* Distribute equally in 3 columns */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    display: inline-block;
+    padding: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  .card p {
+    font-size: 16px;
+    margin: 0 0 8px;
+  }
+  
+  .address {
+    font-style: italic;
+  }
+   

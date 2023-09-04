@@ -1,0 +1,34 @@
+.room-card {
+  width: 45%;
+  height: auto;
+  margin: 2rem;
+  display: inline-block;
+}
+
+.room-card .card-img-top {
+  height: 150px;
+  margin-top: 5px;
+ object-fit: cover;
+}
+
+.room-card .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.room-card .card-text {
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.room-card .btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.875rem;
+}
+
+.room-card .btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}

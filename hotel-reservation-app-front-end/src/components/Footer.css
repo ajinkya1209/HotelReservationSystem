@@ -1,0 +1,44 @@
+ /* Footer.css */
+
+.footer {
+    background-color: #0e2744;
+    color: #fff;
+    padding: 2rem;
+  
+  }
+  
+  /* ... (existing styles) */
+  
+  .footer-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+   
+  }
+  
+  /* ... (existing styles) */
+  
+  .footer-column {
+    margin-top: 10px;
+    flex-basis: calc(25% - 1rem);
+    margin-right: 1rem;
+  }
+  
+  .footer-column h4 {
+    font-size: 1.2rem;
+    margin: 0 0 1rem;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Add any additional styling as needed */
+  

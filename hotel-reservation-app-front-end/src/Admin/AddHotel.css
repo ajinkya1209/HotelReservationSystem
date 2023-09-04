@@ -1,0 +1,66 @@
+/* HotelForm.css */
+
+.hotel-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #413d3d;
+    border-radius: 8px;
+    background-color: #f0f3f6;
+  }
+  
+  .hotel-form h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-group label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #9e9a9a;
+    border-radius: 5px;
+  }
+  .input-label {
+    margin-right: 10px; /* Adjust the margin to your preference */
+  }
+  .input-field {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #9e9a9a;
+    border-radius: 5px;
+  }
+  .invalid-feedback {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: #faf5f5;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Additional styling for HotelType component (if needed) */
+  /* .hotel-type {
+    // Your styling for the hotel type dropdown
+  } */
+  

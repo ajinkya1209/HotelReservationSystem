@@ -1,0 +1,73 @@
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    background-image: url(https://img.freepik.com/free-photo/abstract-blur-hotel-lobby-interior_74190-3724.jpg);
+  }
+  
+  
+  .login-image {
+    max-width: 450px;
+    margin-right: 20px;
+  }
+  
+  .login-form {
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 350px;
+  }
+  
+  .input-container {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .icon {
+    margin-right: 10px;
+    color: #999;
+  }
+  
+  input {
+    border: none;
+    flex: 1;
+    padding: 8px;
+    
+  }
+  .input-label {
+    margin-right: 10px; /* Adjust the margin to your preference */
+  }
+  
+  .input-field {
+    padding: 5px; /* Adjust the padding to your preference */
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
